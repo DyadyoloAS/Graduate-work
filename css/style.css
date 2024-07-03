@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-size: 20px;
+}
+.footer1{
+    position: absolute;
+    font-size: 20px;
+    bottom: 0;
+    margin-top: 10%;
+}
+footer{
+    bottom: 0;
+    margin-top: 10%;
+}
+main{
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+/*шрифты*/
+@font-face {
+    font-family: 'font1';
+    src: url(/fonts/EdgeDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(/fonts/EdgeDisplay-Regular.otf);
+}
+
+h4 {
+    font-family: 'font1';
+}
+
+h3 {
+    font-family: 'font1';
+}
+
+h2 {
+    font-family: 'font1';
+}
+
+h1 {
+    font-family: 'font1';
+}
+
+p {
+    font-family: 'font2';
+}
+
+a {
+    font-family: 'font2';
+}
+
+
+/*Шапка*/
+
+header {
+    background-color: RoyalBlue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.link {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+header a {
+    size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: dimgrey;
+}
+
+.reg-menu {
+    display: flex;
+}
+
+
+/*Тело*/
+
+.news {
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+}
+
+.foto-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+}
+
+.foto-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.foto-div a:hover {
+    color: grey;
+}
+
+.foto-di {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 60%;
+}
+
+.foto-text a {
+    size: 30px;
+}
+
+
+/*Подвал*/
+
+.podval {
+    display: flex;
+    justify-content: space-around;
+    color:white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    background-color: RoyalBlue;
+    height: 220px;
+    width: 100%;
+}
+
+.seti {
+    display: flex;
+    flex-direction: column;
+}
+
+.seti a {
+    text-decoration: none;
+    color: white;
+}
+
+.seti a:hover {
+    color: rgb(131, 126, 126);
+}
+
+.confid {
+    background-color: RoyalBlue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.confid a {
+    text-decoration: none;
+    color: rgb(131, 126, 126);
+}
+
+.confid a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.poles {
+    display: flex;
+    flex-direction: column;
+}
+
+.poles a {
+    text-decoration: none;
+    color: white;
+}
+
+.poles a:hover {
+    color: dimgrey;
+}
+
+.obratnuj-zvonok {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5%;
+}
+
+.form-zvonok {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.form-zvonok div {
+    padding: 15px 0;
+}
+
+.bot-send-mail {
+    width: 100%;
+    height: 80px;
+}
+
+.form-zvonok label,
+.form-zvonok input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-zvonok label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-zvonok input {
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.form-zvonok label span {
+    color: red;
+}
+
+.form-zvonok .bot-send-mail {  
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: RoyalBlue;
+    cursor: pointer;
+    border: 3px rgb(47, 77, 167);
+    border-radius: 5px;
+}
+
+.form-zvonok .bot-send-mail:hover {
+    color: RoyalBlue;
+    background-color: #fff;
+}
+.button-logo{
+    background-color: royalblue;
+    border: none;
+}
